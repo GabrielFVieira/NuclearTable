@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 956bce60b4008c044b7d53c49b948a77
+timeCreated: 1509312560
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Futura_Poster
+  fontNames:
+  - Futura_Poster
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 340d8ca90fc10034f9392c1ac86d9bad, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

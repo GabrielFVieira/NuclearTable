@@ -1,0 +1,42 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6450 (ID=0x6779)
+    Vendor:   ATI
+    VRAM:     1008 MB
+    Driver:   15.201.1151.1008
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.057 seconds
+Platform assembly: C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\System.dll (this message is harmless)
+desktop: 1440x900 60Hz; virtual: 1440x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.997341 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.489849 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1133.
+Total: 0.347439 ms (FindLiveObjects: 0.079992 ms CreateObjectMapping: 0.031695 ms MarkObjects: 0.218545 ms  DeleteObjects: 0.016602 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.842546 ms
+
+Unloading 243 unused Assets to reduce memory usage. Loaded Objects now: 303.
+Total: 0.468786 ms (FindLiveObjects: 0.034411 ms CreateObjectMapping: 0.051316 ms MarkObjects: 0.149420 ms  DeleteObjects: 0.232733 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2f18 -> priority: 1 
+  Thread -> id: 2078 -> priority: 1 
