@@ -11,9 +11,13 @@ public class OptionsManager : MonoBehaviour {
     public Texture2D cursor;
     public Texture2D cursor2;
     public Vector2 cursorHotspot;
+
+    public GameObject credits;
         // Use this for initialization
     void Start ()
     {
+        credits.SetActive(false);
+
 	    vol.value = AudioListener.volume;
 
         cursorHotspot = new Vector2(cursor.width / 2, cursor.height / 2);
@@ -61,7 +65,7 @@ public class OptionsManager : MonoBehaviour {
 
 	public void Credits()
 	{
-		
+        credits.SetActive(!credits.activeSelf);
 	}
 
 	public void Back()

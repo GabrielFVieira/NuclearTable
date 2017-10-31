@@ -10,7 +10,7 @@ public class Clock : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         hours = System.DateTime.Now.Hour;
-        minutes = 52;
+        minutes = 55;
         seconds = 0;
 	}
 
@@ -30,10 +30,9 @@ public class Clock : MonoBehaviour {
 
         seconds += Time.deltaTime;
 
-		if(minutes == 59 && seconds > 60)
+		if(minutes == 59 && seconds > 60 && GameObject.Find("Manager").GetComponent<Manager>().atomicButton.activeSelf == false)
 		{
 			Led.GetComponent<Animator>().enabled = true;
-			Debug.Log("Perdeu");
 		}
 
         if (seconds >= 60)

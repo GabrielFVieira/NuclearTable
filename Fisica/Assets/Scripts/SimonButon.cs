@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SimonButon : MonoBehaviour {
     public bool active;
+    public bool active2;
     public Sprite[] states;
     public bool inteactable;
 
@@ -36,6 +37,9 @@ public class SimonButon : MonoBehaviour {
             active = false;
             timer = 0;
         }
+
+        if (active2 == true)
+            active2 = false;
     }
 
     private void OnMouseDown()
@@ -45,6 +49,7 @@ public class SimonButon : MonoBehaviour {
             if (active == false && manager.numpad == "U235")
             {
                 active = true;
+                active2 = true;
             }
 
             if (active == false && manager.numpad != "U235" && timer == 0)

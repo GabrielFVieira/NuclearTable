@@ -14,6 +14,8 @@ public class Manager : MonoBehaviour {
     public bool restart;
     public float timer;
 
+    public float lastTimer;
+
     public bool down;
     public bool canDown;
 
@@ -38,8 +40,15 @@ public class Manager : MonoBehaviour {
 	public float gifTimer;
 
 	public GameObject[] menu;
+
+    public GameObject atomicButton;
+    public GameObject winTxt;
 	// Use this for initialization
 	void Start () {
+        winTxt.SetActive(false);
+
+        atomicButton.SetActive(false);
+
 		gif.SetActive (false);
 
         canDown = true;
@@ -150,7 +159,7 @@ public class Manager : MonoBehaviour {
 			meters [1].SetActive (true);
 		}
 
-		if (errors >= 15) 
+		if (errors >= 15 && GameObject.Find("Manager").GetComponent<Manager>().atomicButton.activeSelf == false) 
 		{
 			meters [2].SetActive (true);
 			Led.GetComponent<Animator>().enabled = true;
@@ -210,5 +219,25 @@ public class Manager : MonoBehaviour {
 
 		else
 			fixTheCellTxt.text = "Aperte o botão correto\npara guardar a célula";
+
+        if(desafio[0] == true && desafio[1] == true && desafio[2] == true && restart == true)
+        {
+            atomicButton.SetActive(true);
+        }
+
+        if(atomicButton.GetComponent<Animator>().GetBool("Pressed") == true)
+        {
+            desafio[3] = true;
+        }
+
+        if(desafio[3] == true)
+        {
+            lastTimer += Time.deltaTime;
+
+            if (lastTimer >= 0.5f)
+            {
+                winTxt.SetActive(true);
+            }
+        }
     }
 }

@@ -16,6 +16,8 @@ public class Simon : MonoBehaviour {
     public GameObject errouTxt;
 
     public GameObject restartTxt;
+
+    public bool startTimer;
     // Use this for initialization
     void Start () {
         genesisTxt.SetActive(false);
@@ -40,6 +42,7 @@ public class Simon : MonoBehaviour {
             foreach (SimonButon go in buttons)
             {
                 go.active = false;
+                go.active2 = false;
                 go.timer = 0;
             }
        }
@@ -88,16 +91,23 @@ public class Simon : MonoBehaviour {
 
                     if (buttons[0].active == true && correct == 1)
                     {
+                        buttons[0].active2 = false;
                         correct = 2;
                     }
 
                     if (buttons[3].active == true && correct == 2)
                     {
+                        buttons[3].active2 = false;
                         state = 2;
-                        correct = 1;
                     }
 
-                    if (buttons[1].active == true || buttons[2].active == true)
+
+                    if (buttons[0].active2 == true && correct != 1 && buttons[0].timer == 0 || buttons[1].active2 == true && correct != 3 && buttons[1].timer == 0 || buttons[2].active2 == true && correct != 4 && buttons[2].timer == 0 || buttons[3].active2 == true && correct != 2 && buttons[3].timer == 0)
+                    {
+                        startTimer = true;
+                    }
+
+                    if (startTimer)
                     {
                         timer += Time.deltaTime;
 
@@ -108,6 +118,7 @@ public class Simon : MonoBehaviour {
                             state = 0;
                             correct = 1;
                             timer = 0;
+                            startTimer = false;
 
                             manager.errors += 1;
 
@@ -123,6 +134,8 @@ public class Simon : MonoBehaviour {
 
                 if (state == 2)
                 {
+                    correct = 1;
+
                     foreach (SimonButon go in buttons)
                     {
                         go.inteactable = false;
@@ -161,21 +174,28 @@ public class Simon : MonoBehaviour {
 
                     if (buttons[0].active == true && correct == 1)
                     {
+                        buttons[0].active2 = false;
                         correct = 2;
                     }
 
                     if (buttons[3].active == true && correct == 2)
                     {
+                        buttons[3].active2 = false;
                         correct = 3;
                     }
 
                     if (buttons[1].active == true && correct == 3)
                     {
-                        correct = 1;
+                        buttons[1].active2 = false;
                         state = 4;
                     }
 
-                    if (buttons[2].active == true)
+                    if (buttons[0].active2 == true && correct != 1 && buttons[0].timer == 0 || buttons[1].active2 == true && correct != 3 && buttons[1].timer == 0 || buttons[2].active2 == true && correct != 4 && buttons[2].timer == 0 || buttons[3].active2 == true && correct != 2 && buttons[3].timer == 0)
+                    {
+                        startTimer = true;
+                    }
+
+                    if (startTimer)
                     {
                         timer += Time.deltaTime;
 
@@ -186,6 +206,7 @@ public class Simon : MonoBehaviour {
                             state = 0;
                             correct = 1;
                             timer = 0;
+                            startTimer = false;
 
                             manager.errors += 1;
 
@@ -201,6 +222,8 @@ public class Simon : MonoBehaviour {
 
                 if (state == 4)
                 {
+                    correct = 1;
+
                     foreach (SimonButon go in buttons)
                     {
                         go.inteactable = false;
@@ -243,22 +266,25 @@ public class Simon : MonoBehaviour {
 
                     if (buttons[0].active == true && correct == 1)
                     {
+                        buttons[0].active2 = false;
                         correct = 2;
                     }
 
                     if (buttons[3].active == true && correct == 2)
                     {
+                        buttons[3].active2 = false;
                         correct = 3;
                     }
 
                     if (buttons[1].active == true && correct == 3)
                     {
+                        buttons[1].active2 = false;
                         correct = 4;
                     }
 
                     if (buttons[2].active == true && correct == 4)
                     {
-                        correct = 1;
+                        buttons[2].active2 = false;
                         state = 6;
 
                         restartTxt.SetActive(true);
@@ -267,16 +293,24 @@ public class Simon : MonoBehaviour {
                         winTxt.SetActive(true);
                         manager.desafio[1] = true;
                     }
-                    /*
-                    if (buttons[2].active == true)
+
+                    if (buttons[0].active2 == true && correct != 1 && buttons[0].timer == 0 || buttons[1].active2 == true && correct != 3 && buttons[1].timer == 0 || buttons[2].active2 == true && correct != 4 && buttons[2].timer == 0 || buttons[3].active2 == true && correct != 2 && buttons[3].timer == 0)
+                    {
+                        startTimer = true;
+                    }
+
+                    if (startTimer)
                     {
                         timer += Time.deltaTime;
+
+                        errouTxt.SetActive(true);
 
                         if (timer >= 0.4f)
                         {
                             state = 0;
                             correct = 1;
                             timer = 0;
+                            startTimer = false;
 
                             manager.errors += 1;
 
@@ -288,7 +322,6 @@ public class Simon : MonoBehaviour {
                                 manager.meters2[2].active = true;
                         }
                     }
-                    */
                 }
             }
         }

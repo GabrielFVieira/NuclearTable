@@ -2,41 +2,59 @@ Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: AMD Radeon HD 6450 (ID=0x6779)
-    Vendor:   ATI
-    VRAM:     1008 MB
-    Driver:   15.201.1151.1008
+    Renderer: NVIDIA GeForce GTX 460 (ID=0xe22)
+    Vendor:   NVIDIA
+    VRAM:     979 MB
+    Driver:   22.21.13.8233
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.057 seconds
-Platform assembly: C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\gabriel.vieira\Desktop\SimomTest\NuclearTable\nucleartable_Data\Managed\System.dll (this message is harmless)
-desktop: 1440x900 60Hz; virtual: 1440x900 at 0,0
+Platform assembly: D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.040 seconds
+Platform assembly: D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
 <RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 0.997341 ms
+UnloadTime: 1.396869 ms
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.489849 ms
+UnloadTime: 5.983004 ms
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1133.
-Total: 0.347439 ms (FindLiveObjects: 0.079992 ms CreateObjectMapping: 0.031695 ms MarkObjects: 0.218545 ms  DeleteObjects: 0.016602 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 342.
+Total: 0.249024 ms (FindLiveObjects: 0.019805 ms CreateObjectMapping: 0.017475 ms MarkObjects: 0.206210 ms  DeleteObjects: 0.004951 ms)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.842546 ms
+UnloadTime: 0.546689 ms
 
-Unloading 243 unused Assets to reduce memory usage. Loaded Objects now: 303.
-Total: 0.468786 ms (FindLiveObjects: 0.034411 ms CreateObjectMapping: 0.051316 ms MarkObjects: 0.149420 ms  DeleteObjects: 0.232733 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 301.
+Total: 0.367566 ms (FindLiveObjects: 0.045727 ms CreateObjectMapping: 0.052426 ms MarkObjects: 0.230093 ms  DeleteObjects: 0.037863 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.362323 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 273.
+Total: 0.187278 ms (FindLiveObjects: 0.017766 ms CreateObjectMapping: 0.016892 ms MarkObjects: 0.142716 ms  DeleteObjects: 0.009028 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.350964 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1178.
+Total: 0.451739 ms (FindLiveObjects: 0.057668 ms CreateObjectMapping: 0.033785 ms MarkObjects: 0.354168 ms  DeleteObjects: 0.005533 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.904530 ms
+
+Unloading 250 unused Assets to reduce memory usage. Loaded Objects now: 304.
+Total: 0.390284 ms (FindLiveObjects: 0.027960 ms CreateObjectMapping: 0.030582 ms MarkObjects: 0.189899 ms  DeleteObjects: 0.140968 ms)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2f18 -> priority: 1 
-  Thread -> id: 2078 -> priority: 1 
+  Thread -> id: 16b0 -> priority: 1 
+  Thread -> id: 1d30 -> priority: 1 
