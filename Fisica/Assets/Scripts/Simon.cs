@@ -122,11 +122,11 @@ public class Simon : MonoBehaviour {
 
                             manager.errors += 1;
 
-                            if (manager.errors <= 5)
+                            if (manager.errors <= 3)
                                 manager.meters2[0].active = true;
-                            else if (manager.errors > 5 && manager.errors <= 10)
+                            else if (manager.errors > 3 && manager.errors <= 6)
                                 manager.meters2[1].active = true;
-                            else if (manager.errors > 10 && manager.errors <= 15)
+                            else if (manager.errors > 6 && manager.errors <= 9)
                                 manager.meters2[2].active = true;
                         }
                     }
@@ -210,11 +210,11 @@ public class Simon : MonoBehaviour {
 
                             manager.errors += 1;
 
-                            if (manager.errors <= 5)
+                            if (manager.errors <= 3)
                                 manager.meters2[0].active = true;
-                            else if (manager.errors > 5 && manager.errors <= 10)
+                            else if (manager.errors > 3 && manager.errors <= 6)
                                 manager.meters2[1].active = true;
-                            else if (manager.errors > 10 && manager.errors <= 15)
+                            else if (manager.errors > 6 && manager.errors <= 9)
                                 manager.meters2[2].active = true;
                         }
                     }
@@ -314,11 +314,11 @@ public class Simon : MonoBehaviour {
 
                             manager.errors += 1;
 
-                            if (manager.errors <= 5)
+                            if (manager.errors <= 3)
                                 manager.meters2[0].active = true;
-                            else if (manager.errors > 5 && manager.errors <= 10)
+                            else if (manager.errors > 3 && manager.errors <= 6)
                                 manager.meters2[1].active = true;
-                            else if (manager.errors > 10 && manager.errors <= 15)
+                            else if (manager.errors > 6 && manager.errors <= 9)
                                 manager.meters2[2].active = true;
                         }
                     }

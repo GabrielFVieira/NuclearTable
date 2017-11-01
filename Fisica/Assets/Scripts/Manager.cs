@@ -87,47 +87,47 @@ public class Manager : MonoBehaviour {
             }
         }
 
-		if (errors == 2) 
+		if (errors == 1) 
 		{
 			panelTxt.text = "Reator 1:  Esquentando\nReator 2:  Estável\nReator 3:  Estável";
 		}
 
-		else if (errors == 4) 
+		else if (errors == 2) 
 		{
 			panelTxt.text = "Reator 1:  Perigo\nReator 2:  Estável\nReator 3:  Estável";
 		}
 
-		else if (errors == 5) 
+		else if (errors == 3) 
 		{
 			panelTxt.text = "Reator 1:  Superaquecido\nReator 2:  Estável\nReator 3:  Estável";
 		}
 
-		else if (errors == 7) 
+		else if (errors == 4) 
 		{
 			panelTxt.text = "Reator 1:  Superaquecido\nReator 2:  Esquentando\nReator 3:  Estável";
 		}
 
-		else if (errors == 9) 
+		else if (errors == 5) 
 		{
 			panelTxt.text = "Reator 1:  Superaquecido\nReator 2:  Perigo\nReator 3:  Estável";
 		}
 
-		else if (errors == 10) 
+		else if (errors == 6) 
 		{
 			panelTxt.text = "Reator 1:  Superaquecido\nReator 2:  Superaquecido\nReator 3:  Estável";
 		}
 
-		else if (errors == 12) 
+		else if (errors == 7) 
 		{
 			panelTxt.text = "Reator 1:  Superaquecido\nReator 2:  Superaquecido\nReator 3:  Esquentando";
 		}
 
-		else if (errors == 14) 
+		else if (errors == 8) 
 		{
 			panelTxt.text = "Reator 1:  Superaquecido\nReator 2:  Superaquecido\nReator 3:  Perigo";
 		}
 
-		else if (errors == 15 || Led.GetComponent<Animator>().enabled == true) 
+		else if (errors == 9 || Led.GetComponent<Animator>().enabled == true) 
 		{
 			panelTxt.text = "Reator 1:  Superaquecido\nReator 2:  Superaquecido\nReator 3:  Superaquecido";
 			meters [0].SetActive (true);
@@ -149,17 +149,17 @@ public class Manager : MonoBehaviour {
 			}
 		}
 			
-		if (errors >= 5) 
+		if (errors >= 3) 
 		{
 			meters [0].SetActive (true);
 		}
 
-		if (errors >= 10) 
+		if (errors >= 6) 
 		{
 			meters [1].SetActive (true);
 		}
 
-		if (errors >= 15 && GameObject.Find("Manager").GetComponent<Manager>().atomicButton.activeSelf == false) 
+		if (errors >= 9 && GameObject.Find("Manager").GetComponent<Manager>().atomicButton.activeSelf == false) 
 		{
 			meters [2].SetActive (true);
 			Led.GetComponent<Animator>().enabled = true;
@@ -184,11 +184,11 @@ public class Manager : MonoBehaviour {
 			if (go.GetComponent<Animator> ().GetBool ("Pressed") == true && controle == true) {
 				errors += 1;
 
-				if (errors <= 5)
+				if (errors <= 3)
 					meters2[0].active = true;
-				else if (errors > 5 && errors <= 10)
+				else if (errors > 3 && errors <= 6)
 					meters2[1].active = true;
-				else if (errors > 10 && errors <= 15)
+				else if (errors > 6 && errors <= 9)
 					meters2[2].active = true;
 
 				controle = false;
@@ -199,14 +199,14 @@ public class Manager : MonoBehaviour {
 		{
 			errors += 1;
 
-			if (errors <= 5)
-				meters2[0].active = true;
-			else if (errors > 5 && errors <= 10)
-				meters2[1].active = true;
-			else if (errors > 10 && errors <= 15)
-				meters2[2].active = true;
+            if (errors <= 3)
+                meters2[0].active = true;
+            else if (errors > 3 && errors <= 6)
+                meters2[1].active = true;
+            else if (errors > 6 && errors <= 9)
+                meters2[2].active = true;
 
-			controle = false;
+            controle = false;
 		}
 
 		if (button.GetComponent<Animator>().GetBool("Pressed") == true && tableDoorOpen == 2 && canDown == true && fix >= 4)

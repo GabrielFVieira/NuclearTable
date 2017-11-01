@@ -71,13 +71,13 @@ public class NumPad : MonoBehaviour {
 					timer2 += Time.deltaTime;
 
 					if (ano != "1 9 4 5 ") {
-						if (manager.errors < 5)
-							meters [0].active = true;
-						else if (manager.errors >= 5 && manager.errors < 10)
-							meters [1].active = true;
-						else if (manager.errors >= 10 && manager.errors < 15)
-							meters [2].active = true;
-					}
+                        if (manager.errors < 3)
+                            manager.meters2[0].active = true;
+                        else if (manager.errors >= 3 && manager.errors < 6)
+                            manager.meters2[1].active = true;
+                        else if (manager.errors >= 6 && manager.errors < 9)
+                            manager.meters2[2].active = true;
+                    }
 					if (timer2 >= 0.5f) {	
 						if (ano != "1 9 4 5 ")
 							manager.errors += 1;
@@ -109,14 +109,14 @@ public class NumPad : MonoBehaviour {
 						num.Active = false;
 					}
 				} else {
-					if (manager.errors < 5)
-						meters [0].active = true;
-					else if (manager.errors >= 5 && manager.errors < 10)
-						meters [1].active = true;
-					else if (manager.errors >= 10 && manager.errors < 15)
-						meters [2].active = true;
+                    if (manager.errors < 3)
+                        manager.meters2[0].active = true;
+                    else if (manager.errors >= 3 && manager.errors < 6)
+                        manager.meters2[1].active = true;
+                    else if (manager.errors >= 6 && manager.errors < 9)
+                        manager.meters2[2].active = true;
 
-					timer += Time.deltaTime;
+                    timer += Time.deltaTime;
 					if (timer >= 0.5f) {
 						manager.errors += 1;
 
@@ -159,14 +159,14 @@ public class NumPad : MonoBehaviour {
 						charCount = 0;
 					}
 				} else {
-					if (manager.errors < 5)
-						meters [0].active = true;
-					else if (manager.errors >= 5 && manager.errors < 10)
-						meters [1].active = true;
-					else if (manager.errors >= 10 && manager.errors < 15)
-						meters [2].active = true;
-				
-					timer += Time.deltaTime;
+                    if (manager.errors < 3)
+                        manager.meters2[0].active = true;
+                    else if (manager.errors >= 3 && manager.errors < 6)
+                        manager.meters2[1].active = true;
+                    else if (manager.errors >= 6 && manager.errors < 9)
+                        manager.meters2[2].active = true;
+
+                    timer += Time.deltaTime;
 					if (timer >= 0.5f) {
 						manager.errors += 1;
 
