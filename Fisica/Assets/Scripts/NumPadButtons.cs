@@ -40,7 +40,9 @@ public class NumPadButtons : MonoBehaviour
 					panel.senha += num.ToString () + " ";
 					panel.charCount++;
 					GetComponent<SpriteRenderer> ().color = col;
-				}
+
+                    GetComponent<AudioSource>().Play();
+                }
 			}
 
 			if (Active == true && questionTxt.activeSelf == true) {
@@ -48,7 +50,9 @@ public class NumPadButtons : MonoBehaviour
 					panel.ano += num.ToString () + " ";
 					panel.charCount2++;
 					GetComponent<SpriteRenderer> ().color = col;
-				}
+
+                    GetComponent<AudioSource>().Play();
+                }
 			}
 		}
     }

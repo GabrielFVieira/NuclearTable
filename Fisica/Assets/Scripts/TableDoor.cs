@@ -21,6 +21,8 @@ public class TableDoor : MonoBehaviour {
 
 	public GameObject uranio;
 	public GameObject fixTxt;
+
+    public GameObject close;
     // Use this for initialization
     void Start () {
 		uranio.SetActive (false);
@@ -53,11 +55,14 @@ public class TableDoor : MonoBehaviour {
 
 			if (open == 1) {
 				timer1 += Time.deltaTime;
+                GetComponent<AudioSource>().Play();
 			}
 
 			if (open == 3) {
 				timer2 += Time.deltaTime;
-			}
+                close.GetComponent<AudioSource>().Play();
+                GetComponent<AudioSource>().Play();
+            }
 
 			if (timer1 >= 0.2f) {
 				manager.tableDoorOpen = 2;
@@ -71,21 +76,33 @@ public class TableDoor : MonoBehaviour {
 
 			if (manager.tableDoorOpen == 2 && manager.down == false) {
 				uranium.SetActive (true);
+                if (uranium.transform.position.y < -0.58f)
+                {
+                    uranium.transform.Translate(0, vel * Time.deltaTime, 0);
+                    uranium.GetComponent<AudioSource>().enabled = true;
+                }
 
-				if (uranium.transform.position.y < -0.58f)
-					uranium.transform.Translate (0, vel * Time.deltaTime, 0);
-			}
+                if (uranium.transform.position.y > -0.58f)
+                    uranium.GetComponent<AudioSource>().enabled = false;
+            }
 
 			if (manager.down == true) {
-				if (uranium.transform.position.y > -4.02f)
-					uranium.transform.Translate (0, -vel * Time.deltaTime, 0);
-				else {
-					fixTxt.SetActive (false);
-					uranio.SetActive (true);
-					manager.desafio [2] = true;
-					resetText.SetActive (true);
-					manager.tableDoorOpen = 3;
-				}
+
+
+                if (uranium.transform.position.y > -4.02f)
+                {
+                    uranium.transform.Translate(0, -vel * Time.deltaTime, 0);
+                    uranium.GetComponent<AudioSource>().enabled = true;
+                }
+                else
+                {
+                    uranium.GetComponent<AudioSource>().enabled = false;
+                    fixTxt.SetActive(false);
+                    uranio.SetActive(true);
+                    manager.desafio[2] = true;
+                    resetText.SetActive(true);
+                    manager.tableDoorOpen = 3;
+                }
 			}
 		}
 	}

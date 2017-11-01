@@ -33,6 +33,7 @@ public class Switch : MonoBehaviour {
 				active = false;
 				GetComponent<SpriteRenderer> ().sprite = states [0];
 			}
-		}
+            GetComponent<AudioSource>().Play();
+        }
 	}
 }

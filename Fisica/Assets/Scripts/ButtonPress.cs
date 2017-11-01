@@ -52,6 +52,7 @@ public class ButtonPress : MonoBehaviour
         {
             GetComponent<Animator>().SetBool("Pressed", true);
             manager.controle = true;
+            GetComponent<AudioSource>().Play();
         }
 
         else
