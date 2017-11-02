@@ -30,7 +30,7 @@ public class Clock : MonoBehaviour {
 
         seconds += Time.deltaTime;
 
-		if(minutes == 59 && seconds > 60 && GameObject.Find("Manager").GetComponent<Manager>().atomicButton.activeSelf == false)
+		if(minutes == 59 && seconds > 60 && GameObject.Find("Manager").GetComponent<Manager>().winTxt.activeSelf == false)
 		{
 			Led.GetComponent<Animator>().enabled = true;
 		}

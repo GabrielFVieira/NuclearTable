@@ -34,7 +34,7 @@ public class NumPadButtons : MonoBehaviour
 
     private void OnMouseDown()
     {
-		if (manager.Led.GetComponent<Animator> ().enabled == false) {
+		if (manager.Led.GetComponent<Animator> ().enabled == false  && manager.winTxt.activeSelf == false) {
 			if (Active == true && questionTxt.activeSelf == false) {
 				if (panel.charCount < 4) {
 					panel.senha += num.ToString () + " ";
@@ -45,7 +45,7 @@ public class NumPadButtons : MonoBehaviour
                 }
 			}
 
-			if (Active == true && questionTxt.activeSelf == true) {
+			if (Active == true && questionTxt.activeSelf == true  && manager.winTxt.activeSelf == false) {
 				if (panel.charCount < 4) {
 					panel.ano += num.ToString () + " ";
 					panel.charCount2++;

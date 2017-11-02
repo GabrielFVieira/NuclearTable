@@ -33,7 +33,7 @@ public class Lever : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        if (manager.Led.GetComponent<Animator>().enabled == false)
+		if (manager.Led.GetComponent<Animator>().enabled == false  && manager.winTxt.activeSelf == false)
         {
             GetComponent<Animator>().enabled = true;
             GetComponent<AudioSource>().Play();

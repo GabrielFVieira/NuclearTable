@@ -43,6 +43,8 @@ public class Manager : MonoBehaviour {
 
     public GameObject atomicButton;
     public GameObject winTxt;
+
+	public GameObject genesisTxt;
 	// Use this for initialization
 	void Start () {
         winTxt.SetActive(false);
@@ -142,6 +144,7 @@ public class Manager : MonoBehaviour {
 			}
 			gif.SetActive (true);
 			gifTimer += Time.deltaTime;
+			genesisTxt.SetActive (false);
 
 			if (gifTimer >= 4) {
 				foreach (GameObject go in menu)

@@ -47,7 +47,17 @@ public class Simon : MonoBehaviour {
             }
        }
 
-        if (manager.numpad == "U235")
+		if (manager.gif.activeSelf == true || manager.winTxt.activeSelf == true) 
+		{
+			foreach (SimonButon go in buttons) 
+			{
+				go.gameObject.GetComponent<SpriteRenderer> ().sprite = go.states [0];
+				go.gameObject.GetComponent<AudioSource> ().enabled = false;
+				go.enabled = false;
+			}
+		}
+
+		if (manager.numpad == "U235" && manager.gif.activeSelf == false)
         {
             timer2 += Time.deltaTime;
 

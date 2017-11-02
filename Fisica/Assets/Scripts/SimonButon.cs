@@ -44,7 +44,7 @@ public class SimonButon : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        if(inteactable)
+		if(inteactable && manager.winTxt.activeSelf == false)
         {
             if (active == false && manager.numpad == "U235")
             {
@@ -69,6 +69,8 @@ public class SimonButon : MonoBehaviour {
                 if (timer >= 0.8f)
                     timer = 0;
             }
+
+			GetComponent<AudioSource> ().Play ();
         }
     }
 }

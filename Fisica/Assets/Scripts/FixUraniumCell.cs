@@ -23,6 +23,8 @@ public class FixUraniumCell : MonoBehaviour {
 	{
 		timer += Time.deltaTime;
 
+		wrench.GetComponent<AudioSource> ().Play ();
+
 		if (timer > 1) 
 		{
 			manager.fix += 1;
@@ -34,5 +36,6 @@ public class FixUraniumCell : MonoBehaviour {
 	public void OnTriggerExit2D(Collider2D col)
 	{
 		timer = 0;
+		wrench.GetComponent<AudioSource> ().Stop ();
 	}
 }

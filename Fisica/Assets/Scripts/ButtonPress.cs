@@ -48,7 +48,7 @@ public class ButtonPress : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (GetComponent<Animator>().GetBool("Pressed") == false && timer == 0 && manager.Led.GetComponent<Animator>().enabled == false)
+		if (GetComponent<Animator>().GetBool("Pressed") == false && timer == 0 && manager.Led.GetComponent<Animator>().enabled == false && manager.winTxt.activeSelf == false)
         {
             GetComponent<Animator>().SetBool("Pressed", true);
             manager.controle = true;

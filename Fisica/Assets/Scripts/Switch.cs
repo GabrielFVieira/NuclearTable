@@ -25,7 +25,7 @@ public class Switch : MonoBehaviour {
 
 	private void OnMouseDown()
 	{
-		if (manager.numpad != "2003" && manager.numpad != "U235" && passwordTxt.activeSelf == true && manager.Led.GetComponent<Animator>().enabled == false) {
+		if (manager.numpad != "2003" && manager.numpad != "U235" && passwordTxt.activeSelf == true && manager.Led.GetComponent<Animator>().enabled == false  && manager.winTxt.activeSelf == false) {
 			if (GetComponent<SpriteRenderer> ().sprite == states [0]) {
 				active = true;
 				GetComponent<SpriteRenderer> ().sprite = states [1];

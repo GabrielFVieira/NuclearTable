@@ -9,6 +9,7 @@ public class MenuManager : MonoBehaviour {
     public Vector2 cursorHotspot;
     // Use this for initialization
     void Start () {
+		Cursor.visible = true;
         cursorHotspot = new Vector2(cursor.width / 2, cursor.height / 2);
         Cursor.SetCursor(cursor, cursorHotspot, CursorMode.Auto);
     }

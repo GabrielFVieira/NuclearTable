@@ -23,8 +23,11 @@ public class TableDoor : MonoBehaviour {
 	public GameObject fixTxt;
 
     public GameObject close;
+
+	public bool controle;
     // Use this for initialization
     void Start () {
+		controle = true;
 		uranio.SetActive (false);
         resetText.SetActive(false);
         uranium.SetActive(false);
@@ -45,6 +48,7 @@ public class TableDoor : MonoBehaviour {
 				manager.tableDoorOpen = 0;
 				uranium.transform.position = new Vector3 (transform.position.x, -4.15f, transform.position.z);
 				uranium.SetActive (false);
+				controle = true;
 			}
 
 			open = manager.tableDoorOpen;
@@ -60,8 +64,11 @@ public class TableDoor : MonoBehaviour {
 
 			if (open == 3) {
 				timer2 += Time.deltaTime;
-                close.GetComponent<AudioSource>().Play();
-                GetComponent<AudioSource>().Play();
+
+				if (controle == true) {
+					close.GetComponent<AudioSource> ().Play ();
+					controle = false;
+				}
             }
 
 			if (timer1 >= 0.2f) {

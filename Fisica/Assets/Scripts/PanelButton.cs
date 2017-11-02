@@ -47,7 +47,7 @@ public class PanelButton : MonoBehaviour
 
     private void OnMouseDown()
     {
-		if (interactable && manager.Led.GetComponent<Animator> ().enabled == false)
+		if (interactable && manager.Led.GetComponent<Animator> ().enabled == false  && manager.winTxt.activeSelf == false)
         {
             if (GetComponent<SpriteRenderer>().sprite == desactive)
             {
@@ -56,6 +56,8 @@ public class PanelButton : MonoBehaviour
 
             else
                 GetComponent<SpriteRenderer>().sprite = desactive;
+
+			GetComponent<AudioSource> ().Play ();
         }
     }
 }
