@@ -117,7 +117,7 @@ public class Panel : MonoBehaviour {
         else
             correct[0] = false;
         //2
-        if (botões2[0].Actived == botões2[1].Actived == botões2[2].Actived == botões2[3].Actived == botões2[4].Actived == botões2[5].Actived == botões2[6].Actived == false)
+		if (botões2[0].Actived == false && botões2[1].Actived == false && botões2[2].Actived == false && botões2[3].Actived == false && botões2[4].Actived == false && botões2[5].Actived == false && botões2[6].Actived == false)
             correct[1] = true;
 
         else
@@ -135,13 +135,13 @@ public class Panel : MonoBehaviour {
         else
             correct[3] = false;
         //5
-        if (botões5[0].Actived == botões5[1].Actived == botões5[2].Actived == botões5[3].Actived == botões5[4].Actived == botões5[5].Actived == botões5[6].Actived == false)
+		if (botões5[0].Actived == false && botões5[1].Actived == false && botões5[2].Actived == false && botões5[3].Actived == false && botões5[4].Actived == false && botões5[5].Actived == false && botões5[6].Actived == false)
             correct[4] = true;
 
         else
             correct[4] = false;
         //6
-        if (botões6[0].Actived == botões6[1].Actived == botões6[2].Actived == botões6[3].Actived == botões6[4].Actived == botões6[5].Actived == botões6[6].Actived == false)
+		if (botões6[0].Actived == false && botões6[1].Actived == false && botões6[2].Actived == false && botões6[3].Actived == false && botões6[4].Actived == false && botões6[5].Actived == false && botões6[6].Actived == false)
             correct[5] = true;
 
         else
