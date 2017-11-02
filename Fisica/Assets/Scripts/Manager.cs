@@ -132,6 +132,7 @@ public class Manager : MonoBehaviour {
 		else if (errors == 9 || Led.GetComponent<Animator>().enabled == true) 
 		{
 			panelTxt.text = "Reator 1:  Superaquecido\nReator 2:  Superaquecido\nReator 3:  Superaquecido";
+			Led.GetComponent<Animator> ().enabled = true;
 			meters [0].SetActive (true);
 			meters [1].SetActive (true);
 			meters [2].SetActive (true);
