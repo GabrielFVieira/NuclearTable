@@ -26,7 +26,6 @@ public class Wrench : MonoBehaviour {
 		if (active == true) 
 		{
 			transform.position = pos;
-			transform.eulerAngles = new Vector3 (0, 0, -45);
 		}
 
 		if (active == false) 
@@ -44,6 +43,9 @@ public class Wrench : MonoBehaviour {
 		if (GetComponent<SpriteRenderer> ().sortingOrder == 10) 
 		{
 			active = !active;
+
+			if(active)
+				transform.eulerAngles = new Vector3 (0, 0, -45);
 		}
 	}
 }
