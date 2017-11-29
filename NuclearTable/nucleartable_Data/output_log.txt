@@ -1,0 +1,66 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 460 (ID=0xe22)
+    Vendor:   NVIDIA
+    VRAM:     979 MB
+    Driver:   23.21.13.8813
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.040 seconds
+Platform assembly: D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Usuarios\Gabriel\Documents\GitHub\NuclearTable\NuclearTable\nucleartable_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 1.407360 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.817594 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 312.
+Total: 0.248734 ms (FindLiveObjects: 0.022426 ms CreateObjectMapping: 0.017475 ms MarkObjects: 0.189900 ms  DeleteObjects: 0.018349 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.430078 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 350.
+Total: 0.277860 ms (FindLiveObjects: 0.030582 ms CreateObjectMapping: 0.021844 ms MarkObjects: 0.219608 ms  DeleteObjects: 0.004660 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.582516 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 312.
+Total: 0.277569 ms (FindLiveObjects: 0.028834 ms CreateObjectMapping: 0.021261 ms MarkObjects: 0.213492 ms  DeleteObjects: 0.013106 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.474751 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.223977 ms (FindLiveObjects: 0.027378 ms CreateObjectMapping: 0.017184 ms MarkObjects: 0.166891 ms  DeleteObjects: 0.011067 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.337277 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1287.
+Total: 0.475042 ms (FindLiveObjects: 0.058251 ms CreateObjectMapping: 0.034659 ms MarkObjects: 0.371645 ms  DeleteObjects: 0.009611 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.459495 ms
+
+Unloading 262 unused Assets to reduce memory usage. Loaded Objects now: 315.
+Total: 1.152800 ms (FindLiveObjects: 0.032329 ms CreateObjectMapping: 0.031747 ms MarkObjects: 0.219608 ms  DeleteObjects: 0.868241 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: e40 -> priority: 1 
+  Thread -> id: ff8 -> priority: 1 
