@@ -1,9 +1,60 @@
 fileFormatVersion: 2
 guid: c66519298a52cef4f85ec83fde898cef
-timeCreated: 1509540064
+timeCreated: 1512071742
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: UraniumCell 1_0
+    21300002: UraniumCell 1_1
+    21300004: UraniumCell 1_2
+    21300006: UraniumCell 1_3
+    21300008: UraniumCell 1_4
+    21300010: UraniumCell 1_5
+    21300012: UraniumCell 1_6
+    21300014: UraniumCell 1_7
+    21300016: UraniumCell 1_8
+    21300018: UraniumCell 1_9
+    21300020: UraniumCell 1_10
+    21300022: UraniumCell 1_11
+    21300024: UraniumCell 1_12
+    21300026: UraniumCell 1_13
+    21300028: UraniumCell 1_14
+    21300030: UraniumCell 1_15
+    21300032: UraniumCell 1_16
+    21300034: UraniumCell 1_17
+    21300036: UraniumCell 1_18
+    21300038: UraniumCell 1_19
+    21300040: UraniumCell 1_20
+    21300042: UraniumCell 1_21
+    21300044: UraniumCell 1_22
+    21300046: UraniumCell 1_23
+    21300048: UraniumCell 1_24
+    21300050: UraniumCell 1_25
+    21300052: UraniumCell 1_26
+    21300054: UraniumCell 1_27
+    21300056: UraniumCell 1_28
+    21300058: UraniumCell 1_29
+    21300060: UraniumCell 1_30
+    21300062: UraniumCell 1_31
+    21300064: UraniumCell 1_32
+    21300066: UraniumCell 1_33
+    21300068: UraniumCell 1_34
+    21300070: UraniumCell 1_35
+    21300072: UraniumCell 1_36
+    21300074: UraniumCell 1_37
+    21300076: UraniumCell 1_38
+    21300078: UraniumCell 1_39
+    21300080: UraniumCell 1_40
+    21300082: UraniumCell 1_41
+    21300084: UraniumCell 1_42
+    21300086: UraniumCell 1_43
+    21300088: UraniumCell 1_44
+    21300090: UraniumCell 1_45
+    21300092: UraniumCell 1_46
+    21300094: UraniumCell 1_47
+    21300096: UraniumCell 1_48
+    21300098: UraniumCell 1_49
+    21300100: UraniumCell 1_50
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +85,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,7 +127,670 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: UraniumCell 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 855
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 855
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 855
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 855
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_4
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 855
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_5
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 855
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_6
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 855
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_7
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 855
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_8
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 855
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_9
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 855
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 684
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 684
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_12
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 684
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_13
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 684
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_14
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 684
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_15
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 684
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_16
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 684
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_17
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 684
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_18
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 684
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_19
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 684
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 513
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 513
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_22
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 513
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_23
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 513
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_24
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 513
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_25
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 513
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_26
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 513
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_27
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 513
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_28
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 513
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_29
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 513
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_31
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 342
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_32
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 342
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_33
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 342
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_34
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 342
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_35
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 342
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_36
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 342
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_37
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 342
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_38
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 342
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_39
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 342
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_41
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 171
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_42
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 171
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_43
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 171
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_44
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 171
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_45
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 171
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_46
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 171
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_47
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 171
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_48
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 171
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_49
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 171
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UraniumCell 1_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

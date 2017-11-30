@@ -18,7 +18,7 @@ public class FixUraniumCell : MonoBehaviour {
 			gameObject.SetActive (false);
 		}
 
-		Debug.Log (wrench.gameObject.transform.eulerAngles);
+		//Debug.Log (wrench.gameObject.transform.eulerAngles);
 	}
 
 	public void OnTriggerStay2D(Collider2D col)
