@@ -45,8 +45,14 @@ public class Manager : MonoBehaviour {
     public GameObject winTxt;
 
 	public GameObject genesisTxt;
-	// Use this for initialization
-	void Start () {
+
+    public GameObject[] destruction;
+
+    public float delayTimer;
+
+    public GameObject menuBT;
+    // Use this for initialization
+    void Start () {
         winTxt.SetActive(false);
 
         atomicButton.SetActive(false);
@@ -63,7 +69,10 @@ public class Manager : MonoBehaviour {
 
 		foreach (GameObject go in menu)
 			go.SetActive (false);
-	}
+
+        foreach (GameObject go in destruction)
+            go.SetActive(false);
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -146,10 +155,31 @@ public class Manager : MonoBehaviour {
 			gif.SetActive (true);
 			gifTimer += Time.deltaTime;
 			genesisTxt.SetActive (false);
+            menuBT.SetActive(false);
 
-			if (gifTimer >= 4) {
-				foreach (GameObject go in menu)
-					go.SetActive (true);
+
+            if (gifTimer >= 2.5 && gifTimer < 4.2f)
+            {
+                destruction[0].SetActive(true);
+
+                delayTimer += Time.deltaTime;
+
+                if (delayTimer > 0.15f)
+                {
+                    destruction[1].SetActive(!destruction[1].activeSelf);
+                    delayTimer = 0;
+                }
+            }
+
+            if (gifTimer >= 2)
+                foreach (GameObject go in menu)
+                go.SetActive(true);
+
+            if (gifTimer > 2.6f && gifTimer < 2.7f)
+                Camera.main.GetComponent<CameraShake>().shakeDuration = 1.3f;
+
+            if (gifTimer >= 4.2) {
+                destruction[1].SetActive(true);
 			}
 		}
 			
