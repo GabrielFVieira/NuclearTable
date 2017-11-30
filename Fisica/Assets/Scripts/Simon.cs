@@ -18,6 +18,14 @@ public class Simon : MonoBehaviour {
     public GameObject restartTxt;
 
     public bool startTimer;
+
+    public float[] pos;
+    public int[] posPicked;
+    public int random;
+    public int teste = 0;
+
+    public float pX;
+    public float pY;
     // Use this for initialization
     void Start () {
         genesisTxt.SetActive(false);
@@ -25,9 +33,38 @@ public class Simon : MonoBehaviour {
         correct = 1;
         manager = GameObject.Find("Manager").GetComponent<Manager>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    private void FixedUpdate()
+    {
+        for (int i = 0; i < buttons.Length; i++)
+        {
+            random = Random.Range(0, buttons.Length);
+
+            if (posPicked[random] == 0)
+            {
+                pos[random] = teste;
+                teste += 1;
+                posPicked[random] = 1;
+            }
+
+            if (pos[i] == 0 || pos[i] == 2)
+                pX = 0.16f;
+
+            else if (pos[i] == 1 || pos[i] == 3)
+                pX = 0.54f;
+
+            if (pos[i] == 0 || pos[i] == 1)
+                pY = 1.51f;
+
+            else if (pos[i] == 2 || pos[i] == 3)
+                pY = 1.2f;
+
+            buttons[i].transform.localPosition = new Vector3(pX, pY, 0);
+        }
+    }
+
+    // Update is called once per frame
+    void Update () {
         if (manager.restart)
         {
             state = 0;
