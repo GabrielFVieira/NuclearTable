@@ -65,7 +65,7 @@ public class Simon : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        if (manager.restart)
+        if (manager.restart || manager.gifTimer > 0)
         {
             state = 0;
             correct = 1;

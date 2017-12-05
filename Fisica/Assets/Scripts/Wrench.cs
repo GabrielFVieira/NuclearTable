@@ -38,14 +38,17 @@ public class Wrench : MonoBehaviour {
 		
 	}
 
-	private void OnMouseDown()
-	{
-		if (GetComponent<SpriteRenderer> ().sortingOrder == 10) 
-		{
-			active = !active;
+    private void OnMouseDown()
+    {
+        if (GameObject.Find("Manager").GetComponent<Manager>().gifTimer == 0)
+        {
+            if (GetComponent<SpriteRenderer>().sortingOrder == 10)
+            {
+                active = !active;
 
-			if(active)
-				transform.eulerAngles = new Vector3 (0, 0, -45);
-		}
-	}
+                if (active)
+                    transform.eulerAngles = new Vector3(0, 0, -45);
+            }
+        }
+    }
 }

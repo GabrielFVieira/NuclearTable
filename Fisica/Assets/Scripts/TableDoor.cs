@@ -36,7 +36,42 @@ public class TableDoor : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (manager.Led.GetComponent<Animator> ().enabled == false) {
+        if (manager.gifTimer > 0)
+        {
+            if (manager.tableDoorOpen == 2 && manager.down == false)
+            {
+                uranium.SetActive(true);
+                if (uranium.transform.position.y < -0.58f)
+                {
+                    uranium.transform.Translate(0, vel * Time.deltaTime, 0);
+                    uranium.GetComponent<AudioSource>().enabled = true;
+                }
+
+                if (uranium.transform.position.y > -0.58f)
+                    uranium.GetComponent<AudioSource>().enabled = false;
+            }
+
+            if (manager.down == true)
+            {
+
+
+                if (uranium.transform.position.y > -4.02f)
+                {
+                    uranium.transform.Translate(0, -vel * Time.deltaTime, 0);
+                    uranium.GetComponent<AudioSource>().enabled = true;
+                }
+                else
+                {
+                    uranium.GetComponent<AudioSource>().enabled = false;
+                    fixTxt.SetActive(false);
+                    uranio.SetActive(true);
+                    manager.desafio[2] = true;
+                    resetText.SetActive(true);
+                    manager.tableDoorOpen = 3;
+                }
+            }
+        }
+        if (manager.Led.GetComponent<Animator> ().enabled == false) {
 			if (manager.restart == true) {
 				uranio.SetActive (false);
 				timer1 = timer2 = 0;

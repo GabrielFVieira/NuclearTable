@@ -51,6 +51,8 @@ public class Manager : MonoBehaviour {
     public float delayTimer;
 
     public GameObject menuBT;
+
+    public GameObject canvasBG;
     // Use this for initialization
     void Start () {
         winTxt.SetActive(false);
@@ -156,7 +158,7 @@ public class Manager : MonoBehaviour {
 			gifTimer += Time.deltaTime;
 			genesisTxt.SetActive (false);
             menuBT.SetActive(false);
-
+            canvasBG.SetActive(false);
 
             if (gifTimer >= 2.5 && gifTimer < 4.2f)
             {
